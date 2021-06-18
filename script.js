@@ -1,7 +1,7 @@
 
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
-    button.innerText = '﹖';
+    button.innerText = 'Cambio';
 
     let places = staticLoadPlaces();
     renderPlaces(places);
@@ -10,25 +10,7 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Arbol',
-            location: {
-                // decomment the following and add coordinates:
-                //(17.3463808, -98.0310146) arbol, 
-                lat: 17.3463808,
-                lng: -98.0310146,
-            },
-        },
-        {
-            name: 'Caracol',
-            location: {
-                // decomment the following and add coordinates:
-                //(17.3463808, -98.0310146) arbol, 
-                lat: 17.3463808,
-                lng: -98.0310146,
-            },
-        },
-        {
-            name: 'Concha',
+            name: 'Objeto',
             location: {
                 // decomment the following and add coordinates:
                 //(17.3463808, -98.0310146) arbol, 

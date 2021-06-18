@@ -13,7 +13,7 @@ function staticLoadPlaces() {
             name: 'Pokèmon',
             location: {
                 // decomment the following and add coordinates:
-                //(17.3463808, -98.0310146)
+                //(17.3463808, -98.0310146) arbol, 
                 lat: 17.3463808,
                 lng: -98.0310146,
             },
@@ -23,22 +23,22 @@ function staticLoadPlaces() {
 
 var models = [
     {
-        url: './assets/tree.glb',
+        url: 'tree.glb',
         scale: '0.5 0.5 0.5',
         info: 'Arbol',
         rotation: '0 180 0',
     },
     {
-        url: './assets/cpu.glb',
+        url: 'caracol.glb',
         scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
-        info: 'CPU',
+        info: 'Caracol Fosilisado',
     },
     {
-        url: './assets/totoro.glb',
+        url: 'fosil.glb',
         scale: '0.08 0.08 0.08',
         rotation: '0 180 0',
-        info: 'Totoro',
+        info: 'Concha Fosilisada',
     },
 ];
 

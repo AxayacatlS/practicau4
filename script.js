@@ -10,7 +10,7 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Pokèmon',
+            name: 'Arbol',
             location: {
                 // decomment the following and add coordinates:
                 //(17.3463808, -98.0310146) arbol, 
@@ -32,13 +32,13 @@ var models = [
         url: 'caracol.glb',
         scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
-        info: 'Caracol Fosilisado',
+        info: 'Caracol',
     },
     {
         url: 'fosil.glb',
         scale: '0.08 0.08 0.08',
         rotation: '0 180 0',
-        info: 'Concha Fosilisada',
+        info: 'Concha',
     },
 ];
 

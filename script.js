@@ -14,8 +14,8 @@ function staticLoadPlaces() {
             location: {
                 // decomment the following and add coordinates:
                 //(17.3463808, -98.0310146) arbol, 
-                lat: 17.3463808,
-                lng: -98.0310146,
+                lat: 17.346409083237788,
+                lng: -98.0311053646105,
             },
         },
     ];

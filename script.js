@@ -18,6 +18,24 @@ function staticLoadPlaces() {
                 lng: -98.0310146,
             },
         },
+        {
+            name: 'Caracol',
+            location: {
+                // decomment the following and add coordinates:
+                //(17.3463808, -98.0310146) arbol, 
+                lat: 17.3463808,
+                lng: -98.0310146,
+            },
+        },
+        {
+            name: 'Concha',
+            location: {
+                // decomment the following and add coordinates:
+                //(17.3463808, -98.0310146) arbol, 
+                lat: 17.3463808,
+                lng: -98.0310146,
+            },
+        },
     ];
 }
 
